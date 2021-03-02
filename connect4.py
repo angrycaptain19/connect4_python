@@ -14,5 +14,5 @@ print ("The first name is {}<br>".format( first ))
 print ("The name of the submit button was {}<br>".format(submit))
 
 if submit == "Don't ever click me!":
-    for i in range(1000000):
+    for _ in range(1000000):
         print ("AAAAHHH!")
